@@ -1,0 +1,32 @@
+{
+  "name": "sample-store",
+  "version": "1.0.0",
+  "description": "example online store built with JS for learning",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretaivan/sample-store.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "cookies",
+    "authentication"
+  ],
+  "author": "Greta Ivanauskaite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gretaivan/sample-store/issues"
+  },
+  "homepage": "https://github.com/gretaivan/sample-store#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
