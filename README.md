@@ -3,3 +3,4 @@
 ## Technology
 
 - Express
+- EJS
