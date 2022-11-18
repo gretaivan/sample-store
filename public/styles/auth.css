@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  color: var(--color-primary-100);
+}
+
+form {
+  max-width: 25rem;
+  margin: var(--space-8) auto;
+  padding: var(--space-4);
+  text-align: center;
+}
+
+form a {
+  padding: var(--space-2) var(--space-8);
+}
+
+form a:hover, 
+form a:active {
+  color: var(--color-primary-300);
+  border-bottom: 2px solid var(--color-primary-300);
+  
+  
+}
+
+.glass h1 {
+  padding-top: var(--space-2);
+}

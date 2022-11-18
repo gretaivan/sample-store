@@ -1,7 +1,7 @@
 :root{
   --color-primary-100: rgb(255,255,255);
-  --color-primary-300: #DF6589;
-  --color-primary-500: #3C1053;
+  --color-primary-300: rgb(223, 101, 137);
+  --color-primary-500: rgb(60, 16, 83);
 
   --color-error-100: rgb(255,192,180);
   --color-error-500: rgb(199,51,15);
@@ -16,7 +16,9 @@
   --border-radius-m: 6px;
   --border-radius-l: 8px;
 
+  --shadow-s: 5px 5px 10px rgba(60, 16, 83, 0.15);
   --shadow-m: 0 2px 8px rgba(0, 0, 0, 0.02);
+ 
 }
 
 *{
@@ -71,4 +73,11 @@ a {
 .btn:hover,
 .btn:active {
   background-color: var(--color-primary-300);
+}
+
+
+.glass {
+  background-color: rgba(59, 16, 83, 0.164);  
+  backdrop-filter: blur(7px);
+  box-shadow: var(--shadow-s);
 }
