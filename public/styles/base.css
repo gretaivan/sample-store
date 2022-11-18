@@ -1,0 +1,74 @@
+:root{
+  --color-primary-100: rgb(255,255,255);
+  --color-primary-300: #DF6589;
+  --color-primary-500: #3C1053;
+
+  --color-error-100: rgb(255,192,180);
+  --color-error-500: rgb(199,51,15);
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+
+  --border-radius-s: 4px;
+  --border-radius-m: 6px;
+  --border-radius-l: 8px;
+
+  --shadow-m: 0 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  --color-primary-50: rgb(253, 224, 300);
+
+}
+
+body {
+  margin: 0; /* overriding browser defaults */
+
+  background-image: url('/assets/side-wave_background.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background-size: cover; */
+} 
+
+main {
+  width: 90%;
+  max-width: 50rem; 
+  margin: 0 auto;
+}
+
+
+ul, ol{
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary-500);
+}
+
+.btn {
+  cursor: pointer;
+  font: inherit;
+  padding: var(--space-2) var(--space-6);
+  background-color: var(--color-primary-500);
+  color: var(--color-primary-100);
+  border: 1px ridge var(--color-primary-500);
+  border-radius: var(--border-radius-s);
+
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--color-primary-300);
+}
