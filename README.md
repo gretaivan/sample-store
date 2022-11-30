@@ -5,3 +5,4 @@
 - Express
 - EJS
 - mongodb
+- bcrypt
